@@ -1,37 +1,4 @@
-//Exercício 3
-
-// Escreva as operações lógicas abaixo em formato de código. Imprima no console se o valor da operação é verdadeira ou falsa:
-
-// a) 5 é maior que 20 e também é menor que 2;ok*************
-
-quest1 = 5
-quest2 = 20
-quest3 = 2
-console.log("Responda, true ou false, 5 é maior que 20?", quest1>quest2)
-console.log("Responda, true ou false, 5 é menor que 2?", quest1<quest3)
-
-// b) 5 é igual a 5 ou é igual a “5”;ok**************
-
-comparacao1 = 5
-comparacao2 = 5
-comparacao3 = "5"
-console.log("Responda, true ou false, 5 é igual 5?", comparacao1===comparacao2)
-console.log("Responda, true ou false, 5 é igual '5'?", comparacao2===comparacao3)
-
-
-// c) negação de (vinte é maior que cinquenta)?**********
-
-neg1 = 20
-neg2 = 50
-console.log("Responda, vinte é maior que cinquenta?")
-
-// d) negação de (vinte é maior que cinquenta OU cinquenta é maior que sessenta)?************
-
-// Exemplo:
-
-// ```jsx
-// const operacao1 = 20 < 50 && 50 > 90;
-// console.log(operacao1);
-// /*false, porque 50 não é maior que 90, consequentemente temos true && false,
-// que devolve false*/
-// ```
+const console.log(5>20&&20<2)
+const console.log(5===5||5==="5")
+const console.log!(20>50)
+const console.log!(20>50||50>60)
